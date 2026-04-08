@@ -1,0 +1,17 @@
+package pekan3_2511531014;
+import java.util.Stack;
+public class LatihanStack_2511531014 {
+	public static void main (String[] args) {
+		Stack<Integer> s = new Stack<Integer>();
+		s.push(42);
+		s.push(-3);
+		s.push(17);
+		System.out.println("nilai stack= "+s);
+		System.out.println("nilai pop= "+s.pop());
+		System.out.println("nilai stack stelah pop= "+s);
+		System.out.println("nilai peek"+s.peek());
+		System.out.println("nilai stack setelah peak= "+s);
+		
+	}
+
+}
